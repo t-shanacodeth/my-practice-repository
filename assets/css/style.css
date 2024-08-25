@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: red;
+}
+
+.content{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    min-width: 100%;
+    grid-gap: 5px;
+}
+
+.header-content{
+    background-color: palegoldenrod;
+}
+
+.main-content{
+    background-color: powderblue;
+}
+
+.footer-content{
+    background-color: brown;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%;
+  }
+   
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #4a4a4f;
+  }
